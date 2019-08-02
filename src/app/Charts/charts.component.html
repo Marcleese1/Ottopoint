@@ -1,0 +1,91 @@
+<!--big bar chart-->
+<div>
+  <div class="bar" style="display: block">
+    <i class="material-icons">
+      account_circle
+    </i>
+    <span id="user-text">Monthly Users</span>
+    <span id="total-users"> <b>100% Increase</b></span>
+    <canvas
+      baseChart
+      [datasets]="barChartData"
+      [labels]="barChartLabels"
+      [options]="barChartOptions"
+      [legend]="barChartLegend"
+      [chartType]="barChartType"
+    ></canvas>
+  </div>
+</div>
+
+<!-- big pie chart-->
+<div>
+  <div class="pie" style="display: block">
+    <i id="Sales" class="material-icons">
+      money
+    </i>
+    <span id="sale-text">Sales of App!</span>
+    <span id="total-sales"> <b>1200 Units</b></span>
+    <canvas
+      baseChart
+      [data]="pieChartData"
+      [labels]="pieChartLabels"
+      [chartType]="pieChartType"
+    ></canvas>
+  </div>
+</div>
+
+<!--Div for the small graphs-->
+<div class="Small-graphs">
+  <!--Line graph-->
+  <div>
+    <div class="line" style="display: block">
+      <i id="Sales" class="material-icons">attach_money </i>
+      <span id="sale-text">Q1 Income(thousands)</span>
+      <span id="total-sales"> <b>532k</b></span>
+      <canvas
+        baseChart
+        [data]="lineChartData"
+        [labels]="lineChartLabels"
+        [chartType]="lineChartType"
+        [options]="lineChartOptions"
+        [legend]="lineChartLegend"
+      ></canvas>
+    </div>
+  </div>
+
+  <!--Small Pie Chart-->
+  <div>
+    <div class="pie2" style="display: block">
+      <i id="Tech" class="material-icons">
+        money
+      </i>
+      <span id="sale-text">Sales of App!</span>
+      <span id="total-sales"> <b>1200 Units</b></span>
+      <canvas
+        baseChart
+        [data]="pieChartData2"
+        [labels]="pieChartLabels2"
+        [chartType]="pieChartType2"
+      ></canvas>
+    </div>
+  </div>
+
+  <!-- Small bar chart-->
+  <div>
+    <div class="bar-small" style="display: block">
+      <i id="small-bar" class="material-icons">
+        account_circle
+      </i>
+      <span id="user-text">Birthdays By Gender</span>
+      <span id="total-users"> <b>100% Increase</b></span>
+      <canvas
+        baseChart
+        [datasets]="barChartData2"
+        [labels]="barChartLabels2"
+        [options]="barChartOptions2"
+        [legend]="barChartLegend2"
+        [chartType]="barChartType2"
+      ></canvas>
+    </div>
+  </div>
+</div>
