@@ -1,3 +1,4 @@
+/*The Graphs layout on desktops*/
 .bar {
   width: 47%;
   height: 25%;
@@ -70,6 +71,7 @@ i {
   font-size: 25px;
 }
 
+/*This is the media query used to adapt the layout to fit tablet screens for graphs*/
 @media screen and (max-width: 1060px) {
   .bar-small,
   .bar,
