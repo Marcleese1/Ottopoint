@@ -1,7 +1,4 @@
 {
-    "appService.zipIgnorePattern": [
-        ".vscode{,/**}"
-    ],
-    "appService.defaultWebAppToDeploy": "/subscriptions/51402259-aafd-4b85-9639-55cef9aebf66/resourceGroups/Ottopoint/providers/Microsoft.Web/sites/OttoPointTest",
+    "appService.defaultWebAppToDeploy": "",
     "appService.deploySubpath": ""
 }
