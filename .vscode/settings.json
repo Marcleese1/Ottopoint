@@ -1,4 +1,4 @@
 {
-    "appService.defaultWebAppToDeploy": "/subscriptions/51402259-aafd-4b85-9639-55cef9aebf66/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/OttoTest",
+    "appService.defaultWebAppToDeploy": "/subscriptions/51402259-aafd-4b85-9639-55cef9aebf66/resourceGroups/OttoTest/providers/Microsoft.Web/sites/OttoTest",
     "appService.deploySubpath": ""
 }
